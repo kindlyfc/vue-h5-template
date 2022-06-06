@@ -42,8 +42,8 @@ yarn run dev
 
 ``` javascript
 // index.html
-<script type="module" src="/src/main.ts"></script>
 <script src="//cdn.bootcdn.net/ajax/libs/eruda/2.3.3/eruda.js"></script>
+<script>eruda.init();</script>
 ```
 
 [▲ 回顶部](#top)
